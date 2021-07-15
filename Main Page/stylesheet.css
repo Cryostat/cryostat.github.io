@@ -2,12 +2,24 @@ body {
     background-color: cyan;
   }
   
-  h1 {
-    color: white;
+  header{
+    color: rgb(93, 194, 224);
     text-align: center;
+  }
+
+  h1 {
+    color: rgb(54, 50, 50);
+    background-color: bisque;
+    text-align: center;
+    margin-top: 20px;
+
   }
   
   p {
-    font-family: verdana;
+    color: rgb(39, 37, 37);
     font-size: 20px;
+  }
+
+  ul#horizontal-list li{display: inline;
+
   }
