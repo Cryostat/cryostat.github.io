@@ -70,8 +70,9 @@ body {
   }
 
   #whitebox {
-    display: flex;
-    align-items: center;
+    height: max-content;
+    width: 700px;
+    border:rgb(141, 60, 130)
   }
 
   ul#horizontal-list li{display: inline;
