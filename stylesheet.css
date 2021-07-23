@@ -69,6 +69,11 @@ body {
     background-color:rgb(39, 37, 37);
   }
 
+  #whitebox {
+    display: flex;
+    align-items: center;
+  }
+
   ul#horizontal-list li{display: inline;
 
   }
