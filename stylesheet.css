@@ -1,6 +1,8 @@
 body {
     background-image: url(ShopBackground.jpg);
     background-color: #ffffff;
+    border-image-width: auto;
+    background-position: center;
     padding: 5px;
     margin-top: 100px;
     margin-left: auto;
