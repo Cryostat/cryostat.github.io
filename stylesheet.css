@@ -4,7 +4,8 @@ body {
     border-image-width: 70%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover; 
+    background-size: cover;
+    max-zoom: 100%;
     padding: 80px;
     margin-top: 100px;
     margin: auto;
@@ -61,6 +62,7 @@ body {
     padding: 5px;
     border-color: salmon;
     border-style: solid;
+    border-left: 0px;
     border-bottom: 0px;
     border-right: 0px;
     background-color:rgb(39, 37, 37);
