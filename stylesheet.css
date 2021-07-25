@@ -21,6 +21,7 @@ body {
     max-height: fit-content;
   }
 
+  /*web page title*/
   h1 {
     color: rgb(54, 50, 50);
     background-color: rgb(255, 229, 198);
@@ -31,6 +32,7 @@ body {
     padding-top: 10px;
   }
   
+  /*headers*/
   h2{
     color: rgb(54, 50, 50);
     background-color: rgb(255, 229, 198);
@@ -41,6 +43,7 @@ body {
     padding-top: 10px;
   }
 
+  /*main content*/
   p {
     color: rgb(8, 7, 7);
     text-align: center;
@@ -53,6 +56,7 @@ body {
     padding-top: 10px;
   }
 
+  /*black footer*/
   footer {
     color:rgb(179, 157, 125);
     font-size: 25;
@@ -68,6 +72,7 @@ body {
     background-color:rgb(39, 37, 37);
   }
 
+  /*white background*/
   #whitebox {
     margin: auto;
     height: max-content;
@@ -77,6 +82,7 @@ body {
     border-style: solid; 
   }
 
+  /*top of the page*/
   #top-seperator {
     background-color:rgb(39, 37, 37);
     color:rgb(255, 255, 255);
@@ -98,4 +104,5 @@ body {
     background-color: rgb(255, 255, 255);
     border: rgba(255, 255, 255, 0.253);
     border-style: solid;
+    margin: auto;
   }
