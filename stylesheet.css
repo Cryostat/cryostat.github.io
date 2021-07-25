@@ -4,7 +4,7 @@ body {
     border-image-width: 70%;
     background-position: center;
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: contain;
     max-zoom: 100%;
     padding: 80px;
     margin-top: 100px;
