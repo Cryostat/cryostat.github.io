@@ -91,11 +91,11 @@ body {
   }
 
   #whitebackbox {
-    width: fit-content;
-    height: fit-content;
-    padding-right: 50px;
-    padding-left: 50px;
-    color: rgb(255, 255, 255);
+    width: 900px;
+    height: 900px;
+    padding-right: 10px;
+    padding-left: 10px;
+    background-color: rgb(255, 255, 255);
     border: rgba(255, 255, 255, 0.253);
     border-style: solid;
   }
