@@ -77,7 +77,7 @@ body {
     border-style: solid; 
   }
 
-  #top-seperator{
+  #top-seperator {
     background-color:rgb(39, 37, 37);
     color:rgb(255, 255, 255);
     font-size: 25;
@@ -90,7 +90,12 @@ body {
     margin: auto;
   }
 
-
-  ul#horizontal-list li{display: inline;
-
+  #whitebackbox {
+    width: fit-content;
+    height: fit-content;
+    padding-right: 50px;
+    padding-left: 50px;
+    color: rgb(255, 255, 255);
+    border: rgba(255, 255, 255, 0.253);
+    border-style: solid;
   }
