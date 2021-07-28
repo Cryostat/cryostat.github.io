@@ -2,26 +2,30 @@
 <html>
 <head>
     <link rel="stylesheet" href="stylesheet.css">
-    <link rel="javascript" href="fancythings.js">
+    <link rel="mediaqueries" href="mediaqueries.css">
+    <link rel="javascript" href="main.js">
     <script src="main.js"></script>
 </head>
 
 <body>
     <div id="whitebackbox">
     <div id="top-seperator">
+    
+    <button class="pancake">
+        <span class="menuItems material-icons">
+            menu
+        </span>
+        <span class="exitIcon material-icons">
+            close
+        </span>
+    </button>
 
-    <button onclick="menuPancake()" id="menu" class="mobile-menu">Menu</button>
-    <div id="menu-display"></div>
-
-    <nav>
-        <a href="https://cryostat.github.io/home">Home</a>
-
-        <a href="https://cryostat.github.io/items">Items</a>
-
-        <a href="https://cryostat.github.io/orders">Orders</a>
-
-        <a href="https://cryostat.github.io/contact">Contact</a>
-    </nav>
+    <ul class="menu">
+        <li><a class="menuLink" href="#">Home</a></li>
+        <li><a class="menuLink" href="#">Items</a></li>
+        <li><a class="menuLink" href="#">Orders</a></li>
+        <li><a class="menuLink" href="#">Contact</a></li>
+    </ul>
 
     </div id="top-seperator">
     <div id="whitebox">

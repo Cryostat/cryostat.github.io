@@ -1,0 +1,14 @@
+/*Support for Mobile Devices*/
+
+
+ @media screen and (max-width: 768px) {
+    body {
+      ;
+    }
+  }
+
+ @media screen and (max-width: 320px) {
+    body {
+      ;
+    }
+  }
