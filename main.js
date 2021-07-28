@@ -4,7 +4,7 @@ function menuPancake() {
     toggle();
 }
 function toggle() {
-    var x = document.getElementById("menu-dispay");
+    var x = document.getElementById("menu-display");
     if (x.style.dispay === "block") {
         x.style.display = "none";    
     }

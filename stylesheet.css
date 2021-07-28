@@ -106,6 +106,7 @@ body {
   #menu-display {
     color:black;
     background-color: peru;
+    text-align: right;
     height: 90px;
     width: 90px
   }
