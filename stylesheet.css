@@ -120,13 +120,13 @@
 
   /*Navigation Menu*/
   .pancake {
-    position: sticky;
+    position: fixed;
     z-index: 100;
-    top: 0rem;
-    right: 0rem;
-    width: 10rem;
-    height: 10rem;
-    border: bisque;
+    top: 1rem;
+    right: 1rem;
+    width: 3rem;
+    height: 3rem;
+    border: bisque solid 1px;
     background: white;
   }
 
@@ -161,7 +161,7 @@
   .menuLink{
     color: (54, 50, 50);
     background-color: bisque;
-    style: inline;
+    display: inline;
     border-color: salmon solid; 
   }
 
