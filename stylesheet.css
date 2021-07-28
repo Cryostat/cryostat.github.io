@@ -108,26 +108,25 @@
     margin: auto;
   }
 
-  /*menu background*/
+  /*Menu Background*/
   #menu-display {
     color:rgb(54, 50, 50);
     background-color: white;
     border: salmon;
     text-align: right;
-    
     height: 90px;
     width: 90px
   }
 
   /*Navigation Menu*/
   .pancake {
-    position: fixed;
+    position: sticky;
     z-index: 100;
-    top: 1rem;
-    right: 1rem;
-    width: 1rem;
-    height: 1rem;
-    border: black solid;
+    top: 0rem;
+    right: 0rem;
+    width: 10rem;
+    height: 10rem;
+    border: bisque;
     background: white;
   }
 
@@ -136,7 +135,7 @@
     display: none;
   }
 
-  /*The actual menu*/
+  /*The Actual Menu*/
   .menu {
     position: fixed;
     top: 0;
@@ -158,5 +157,17 @@
     transform: translateY(0);
   }
 
+  /*Menu Link*/
+  .menuLink{
+    color: (54, 50, 50);
+    background-color: bisque;
+    style: inline;
+    border-color: salmon solid; 
+  }
 
+  .menuLink:hover {
+    color: rgb(255, 229, 198);
+    background-color: rosybrown; 
+    text-decoration: underline;
+  }
   

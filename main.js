@@ -6,24 +6,22 @@ var exitIcon = document.querySelector(".exitIcon");
 var menuIcon = document.querySelector(".menuIcon");
 
 pancake.addEventListener("click", toggleMenu);
-menu.classList.contains("showMenu");
-
 
 function toggleMenu() {
-    if (menu.classList.contains("showMenu")) {
-      menu.classList.remove("showMenu");
+    if (menu.classList.contains("showNav")) {
+      menu.classList.remove("showNav");
       exitIcon.style.display = "none";
       menuIcon.style.display = "block";
     } else {
-      menu.classList.add("showMenu");
+      menu.classList.add("showNav");
       exitIcon.style.display = "block";
       menuIcon.style.display = "none";
     }
   }
 
-  var menuLinks = document.querySelectorAll(".menuLink");
+  var menuLink = document.querySelectorAll(".menuLink");
 
-  menuLinks.forEach( 
+  menuLink.forEach( 
     function(menuLink) { 
       menuLink.addEventListener("click", toggleMenu);
     }
