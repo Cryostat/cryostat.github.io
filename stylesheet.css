@@ -12,16 +12,17 @@ body {
     margin: auto;
     text-align: center;
   }
-  
+  /*Web page title*/
   header{
     color: rgb(53, 65, 68);
     background-color: rgb(255, 255, 255);
     font-size: 130px;
     text-align: center;
     max-height: fit-content;
+    font-family: Fantasy;
   }
 
-  /*web page title*/
+  /*Home Page*/
   h1 {
     color: rgb(54, 50, 50);
     background-color: rgb(255, 229, 198);
@@ -31,7 +32,7 @@ body {
     padding-top: 10px;
   }
   
-  /*headers*/
+  /*Items*/
   h2{
     color: rgb(54, 50, 50);
     background-color: rgb(255, 229, 198);
