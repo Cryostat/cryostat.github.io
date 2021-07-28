@@ -24,7 +24,7 @@
     font-size: 130px;
     text-align: center;
     max-height: fit-content;
-    font-family: Fantasy;
+    font-family: MonteCarlo, Fantasy;
   }
 
   /*Home Page*/
@@ -131,7 +131,7 @@
   }
 
   /*Exit Icon*/
-  .xIcon {
+  .exitIcon {
     display: none;
   }
 
