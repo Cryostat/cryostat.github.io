@@ -1,3 +1,3 @@
 function menuPancake() {
-    document.getElementById(demo)
+    var item = document.getElementById("sidemenu");
 }

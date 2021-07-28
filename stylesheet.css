@@ -103,4 +103,9 @@ body {
     margin: auto;
   }
 
-  
+  #menu-display {
+    color:black;
+    background-color: peru;
+    height: 90px;
+    width: 90px
+  }
