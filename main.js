@@ -1,6 +1,6 @@
 function menuPancake() {
     var item = document.getElementById("sidemenu");
-    document.getElementById("menu-display").appendChild(item);
+    document.getElementById("menu-display").appendChild(node);
     toggle();
 }
 function toggle() {
@@ -12,4 +12,4 @@ function toggle() {
         x.style.display = "block";
     }
 }
-document.getElementById("menu").addEventListener("click", mobileMenu);
+document.getElementById("menu").addEventListener("click", menuPancake);
