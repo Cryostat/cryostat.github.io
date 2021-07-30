@@ -3,7 +3,6 @@
   
 /*Main Background*/
 body {
-  background-image: url(Images/ShopBackground.jpg);
   background-color: #ffffff;
   border-image-width: 100%;
   background-position: center;
@@ -165,9 +164,8 @@ footer {
   display: inline;
   border-color: salmon;
   border-style: solid;
-  margin-top: 2px;
-  margin-bottom: 2px;
-  padding: 0px;
+  border-radius: 3%;
+  margin: 30px;
 }
 
 /*Menu Hover*/
@@ -177,7 +175,9 @@ footer {
   text-decoration: underline;
 }
   
-#menu-ul {
+.menu-ul {
+  font-size: larger;
+  margin-bottom: 20px;
   text-align: left;
 }
 
