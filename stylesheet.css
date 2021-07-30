@@ -24,7 +24,7 @@ h1{
   font-size: 120px;
   text-align: center;
   max-height: fit-content;
-  font-family: MonteCarlo, Fantasy;
+  font-family: Tahoma;
   }
 
 /*Home Page*/
@@ -107,8 +107,7 @@ footer {
   color:rgb(54, 50, 50);
   background-color: white;
   border: salmon;
-  text-align: right;
-  background-position: right;
+  text-align: left;
   height: 90px;
   width: 90px;
 }
@@ -139,15 +138,14 @@ footer {
 /*The Actual Menu*/
 .menu {
   position: absolute;
-  top: 0;
-  left: 0;
+  bottom: 10;
   right: 0;
-  bottom: 0;
   width: 30%;
-  height: 100vh;
-  margin: right;
-  background: bisque;
+  height: 50rem;
+  background: rgb(255, 255, 255);
   color: rgb(52, 50, 50);
+  border: black 3px;
+  border-radius: 3%;
   transform: translateY(-120%);
   transition: transform 0.2s;
   list-style: none;
@@ -179,16 +177,21 @@ footer {
   text-decoration: underline;
 }
   
+#menu-ul {
+  text-align: left;
+}
+
 /*+++++++++++++++++++++++++++++++++++++++++++++*/
 
 /*Image Gallery*/
 div.gallery {
   border: 1px solid rgb(255, 255, 255);
+  margin: 15px;
 }
   
 div.gallery img {
   border-radius: 5%;
-  width: 70%;
+  width: 100%;
   height: auto;
   }
 
@@ -201,6 +204,7 @@ div.desc {
   color: rgb(52,50,50);
   padding: 15px;
   text-align: center;
+  font-size: medium; 
 }
 
 * {
@@ -208,7 +212,7 @@ div.desc {
 }
   
 .responsive {
-  padding: 0 6px;
+  padding: 0 1px;
   float: left;
   width: 25%;
 }
