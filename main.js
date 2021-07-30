@@ -1,4 +1,5 @@
 //Simple JS calls functions//
+window.onload = function() {
 
 var menu = document.querySelector(".menu");
 var pancake = document.querySelector(".pancake");
@@ -26,3 +27,4 @@ menuLinks.forEach(
       menuLink.addEventListener("click", toggleMenu)
     }
   )
+}

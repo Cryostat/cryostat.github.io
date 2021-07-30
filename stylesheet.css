@@ -18,21 +18,22 @@ body {
   }
 
 /*Web Page Title*/
-header{
+h1{
   color: rgb(53, 65, 68);
   background-color: rgb(255, 255, 255);
-  font-size: 130px;
+  font-size: 120px;
   text-align: center;
   max-height: fit-content;
   font-family: MonteCarlo, Fantasy;
   }
 
 /*Home Page*/
-h1 {
+h2 {
   color: rgb(54, 50, 50);
   background-color: rgb(255, 229, 198);
   max-height: fit-content;
   text-align: center;
+  font-size: 40px;
   margin-top: 20px;
   padding-top: 10px;
   }
@@ -49,12 +50,24 @@ p {
   padding-top: 10px;
   }
 
+  /*Black Top*/
+header{
+  background-color:rgb(39, 37, 37);
+  color:rgb(255, 255, 255);
+  font-size: 25px;
+  text-align: right;
+  border-color: black ;
+  border-style: solid;
+  height: 110px;
+  padding: 5px;
+  margin: auto;
+  }
+
 /*Black Footer*/
 footer {
   color:rgb(179, 157, 125);
-  font-size: 25;
+  font-size: 16px;
   text-align: center;
-  border-bottom: 20px;
   padding: 5px;
   border-color: salmon;
   border-style: solid;
@@ -64,27 +77,13 @@ footer {
   background-color:rgb(39, 37, 37);
   }
 
-/*Top of Page*/
-#top-seperator {
-  background-color:rgb(39, 37, 37);
-  color:rgb(255, 255, 255);
-  font-size: 25;
-  text-align: right;
-  border-color: black ;
-  border-style: solid;
-  height: 90px;
-  width: 800px;
-  padding: 5px;
-  margin: auto;
-  }
-
 /*white Background*/
 #whitebox {
   margin: auto;
   height: max-content;
   width: 800px;
   background-color: rgb(255, 255, 255);
-  border:rgb(0, 0, 0);
+  border:rgba(0, 0, 0);
   border-style: solid; 
 }
 
@@ -94,8 +93,8 @@ footer {
   padding-right: 10px;
   padding-left: 10px;
   background-color: rgb(255, 255, 255);
-  border-color: rgb(236, 135, 12);
-  border: 5px;
+  border-color: rgba(0, 0, 0, 0.329);
+  border: 5px solid;
   border-style: unset;
   border-radius: 1%;
   margin: auto;
@@ -115,15 +114,15 @@ footer {
 
 /*Navigation Menu*/
 .pancake {
-  position: fixed;
+  position: static;
   z-index: 100;
-  top: 1rem;
-  right: 1rem;
+  top: -1rem;
   width: 5rem;
   height: 5rem;
-  border: bisque; 
+  border: rgb(68, 67, 66); 
+  background: rgb(0, 0, 0);
   border-style: solid;
-  background: white;
+  border-radius: 10%;
 }
 
 /*Exit Icon*/
@@ -133,16 +132,16 @@ footer {
 
 /*The Actual Menu*/
 .menu {
-  position: fixed;
+  position: absolute;
   top: 0;
   left: 0;
   right: 0;
-  bottom: 0;
+  bottom: 0px;
   width: 100%;
   height: 300vh;
   background: bisque;
   color: rgb(52, 50, 50);
-  transform: translateY(-100%);
+  transform: translateY(-120%);
   transition: transform 0.2s;
   list-style: none;
   padding-top: 4rem;
@@ -202,7 +201,7 @@ div.desc {
   width: 25%;
 }
   
-.clearfix:after {
+.footerfix:after {
   content: "";
   display: grid;
   clear: both;
