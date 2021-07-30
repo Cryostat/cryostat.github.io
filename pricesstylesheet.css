@@ -3,7 +3,7 @@
   
 /*Main Background*/
 body {
-    background-image: url(Images/DoughnutPage.jpg);
+    background-image: url(Images/DisplayShop.jpg);
     background-color: #ffffff;
     border-image-width: 100%;
     background-position: center;
@@ -108,8 +108,8 @@ body {
     background-color: white;
     border: salmon;
     text-align: right;
-    height: 90px;
-    width: 90px
+    height: 70px;
+    width: 70px
   }
   
   /*Navigation Menu*/
@@ -137,11 +137,11 @@ body {
     left: 0;
     right: 0;
     bottom: 0px;
-    width: 100%;
-    height: 300vh;
+    width: 70%;
+    height: 100vh;
     background: bisque;
     color: rgb(52, 50, 50);
-    transform: translateY(-100%);
+    transform: translateY(-120%);
     transition: transform 0.2s;
     list-style: none;
     padding-top: 4rem;
@@ -169,40 +169,3 @@ body {
     
   /*+++++++++++++++++++++++++++++++++++++++++++++*/
   
-  /*Image Gallery*/
-  div.gallery {
-    border: 1px solid rgb(255, 255, 255);
-  }
-    
-  div.gallery img {
-    border-radius: 5%;
-    width: 70%;
-    height: auto;
-    }
-  
-  div.gallery:hover {
-    border: 4px solid salmon;
-    border-radius: 5%;
-    }
-    
-  div.desc {
-    color: rgb(52,50,50);
-    padding: 15px;
-    text-align: center;
-    }
-    
-  * {
-    box-sizing: border-box;
-  }
-    
-  .responsive {
-    padding: 0 6px;
-    float: left;
-    width: 25%;
-  }
-    
-  .footerfix:after {
-    content: "";
-    display: grid;
-    clear: both;
-  }

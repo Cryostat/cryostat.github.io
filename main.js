@@ -22,7 +22,7 @@ if (menu.classList.contains("showNav")) {
 
 var menuLink = document.querySelectorAll(".menuLink");
 
-menuLinks.forEach(
+menuLink.forEach(
     function (menuLink) {
       menuLink.addEventListener("click", toggleMenu)
     }
