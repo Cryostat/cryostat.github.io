@@ -53,6 +53,8 @@ p {
 ul {
   font-size: x-large;
   text-align: left;
+  display: inline-table;
+  list-style-type: none;
 }
 
   /*Black Top*/
@@ -142,16 +144,16 @@ footer {
 
 /*The Actual Menu*/
 .menu {
-  position: absolute;
-  bottom: 10;
-  right: 0;
-  width: 30%;
+  position: fixed;
+  bottom: 0;
+  right: 30%;
+  width: 25%;
   height: 50rem;
-  background: rgb(255, 255, 255);
-  color: rgb(52, 50, 50);
+  background: rgb(248, 248, 248);
+  color: salmon;
   border: black 3px;
-  border-radius: 3%;
-  transform: translateY(-120%);
+  border-radius: 5%;
+  transform: translateY(-1000%);
   transition: transform 0.2s;
   list-style: none;
   padding-top: 4rem;
@@ -166,12 +168,15 @@ footer {
 /*Menu Link*/
 .menuLink{
   color: rgb(54, 50, 50);
-  background-color: bisque;
-  display: inline;
-  border-color: salmon;
+  background-color: white;
+  display: list-item;
+  border-color: bisque;
   border-style: solid;
-  border-radius: 3%;
-  margin: 30px;
+  border-radius: 2%;
+  margin: 20px;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 5px;
 }
 
 /*Menu Hover*/
@@ -211,7 +216,7 @@ div.desc {
   padding: 15px;
   text-align: center;
   font-weight: bold;
-  font-size: medium; 
+  font-size: large; 
 }
 
 * {
