@@ -238,12 +238,12 @@ div.desc {
 
 @media screen and (max-width: 992px) {
   body {
-    color: red;
+    width: 75%;
   }
 }
 
 @media screen and (max-width: 600px) {
   body {
-    color: orange;
+    width: 60%;
   }
 }
