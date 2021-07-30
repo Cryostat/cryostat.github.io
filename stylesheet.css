@@ -234,3 +234,16 @@ div.desc {
   display: grid;
   clear: both;
 }
+
+
+@media screen and (max-width: 992px) {
+  body {
+    color: red;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  body {
+    color: orange;
+  }
+}
